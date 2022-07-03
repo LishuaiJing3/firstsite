@@ -1,6 +1,8 @@
 from django.urls import path
 
 from . import views
+
+# add app names to provide namespacing when have more apps than polls
 app_name = 'polls'
 
 urlpatterns = [
